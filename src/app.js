@@ -27,7 +27,7 @@ app.use(express.static(PubliDirName))
 app.get('',(req, res)=>{
     res.render('index',{
         title:'Weather App',
-        name: 'Shubhankit'
+        name: 'Shubhankit Goutam'
     })
 })
 
@@ -42,7 +42,7 @@ app.get('/help',(req,res)=>{
     res.render('help',{
         helptext:'this is helpful text',
         title: 'Help',
-        name:'Shubhankit'
+        name:'Shubhankit Goutam'
     })
 })
 
@@ -95,7 +95,7 @@ app.get('/product',(req,res)=>{
  app.get('/help/*', (req,res)=>{
      res.render('404',{
          title: '404',
-         name : 'shubhankit',
+         name : 'shubhankit Goutam',
          ErrorMeassage : 'Help Article is not found'
      })
  })
@@ -103,7 +103,7 @@ app.get('/product',(req,res)=>{
  app.get('*',(req,res)=>{
      res.render('404',{
          title : '404',
-         name : 'Shubhankit',
+         name : 'Shubhankit Goutam',
          ErrorMeassage : 'Page not found'
      }) 
  })
