@@ -16,4 +16,4 @@ const forecast = (laitude, longitude ,callback)=>{
      }) 
   }
   
-  module.exports =forecast;
+  module.exports =forecast; 
